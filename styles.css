@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+#display {
+    margin: 2px;
+    padding: 3em;
+    border: 2px solid black;
+}
+
+#calculatorBody {
+  display: flex;
+  flex-direction: column;
+  border: 8px solid black;
+  width: 500px;
+  height: 800px;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid black;
+    justify-content: space-evenly;
+}
+
+.row > * {
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    width: 7em;
+    height: 7em;
+}
